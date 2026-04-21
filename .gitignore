@@ -203,3 +203,15 @@ $RECYCLE.BIN/
 # =========================================================
 
 .pypirc
+*.pkl, *.pickle
+*.db, *.sqlite3
+.ipynb
+.python-version
+poetry.lock
+package-lock.json
+pip-wheel-metadata/
+pdf, docx, pptx
+.todo
+secrets/, keys/, credentials/
+*.yaml
+*.yml
