@@ -115,15 +115,15 @@ temp/
 
 # 🔹 데이터셋 (필요 시 주석 해제)
 
-# data/
+data/
 
-# datasets/
+datasets/
 
-# *.csv
+*.csv
 
-# *.json
+*.json
 
-# *.parquet
+*.parquet
 
 # =========================================================
 
