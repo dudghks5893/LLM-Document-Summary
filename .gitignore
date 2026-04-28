@@ -113,17 +113,6 @@ lightning_logs/
 tmp/
 temp/
 
-# 🔹 데이터셋 (필요 시 주석 해제)
-
-data/
-
-datasets/
-
-*.csv
-
-*.json
-
-*.parquet
 
 # =========================================================
 
@@ -213,5 +202,3 @@ pip-wheel-metadata/
 pdf, docx, pptx
 .todo
 secrets/, keys/, credentials/
-*.yaml
-*.yml
