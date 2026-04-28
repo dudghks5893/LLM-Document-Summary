@@ -142,7 +142,74 @@ ENV/
 env.bak/
 venv.bak/
 
+<<<<<<< HEAD
 # Spyder project settings
+=======
+# =========================================================
+
+# 🧠 ML 핵심 (🔥 중요)
+
+# =========================================================
+
+# 🔹 모델 파일 (PyTorch / TensorFlow / ONNX 등)
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.h5
+
+# 🔹 학습 결과 / 실험 로그
+
+runs/
+logs/
+outputs/
+results/
+experiments/
+
+# 🔹 실험 추적 툴
+
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+
+# 🔹 캐시 / 임시 데이터
+
+.cache/
+*.cache
+*.tmp
+*.temp
+tmp/
+temp/
+
+
+# =========================================================
+
+# 🖼️ 이미지 / 영상 데이터 (대용량 방지)
+
+# =========================================================
+
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+
+# =========================================================
+
+# ⚙️ IDE / Editor
+
+# =========================================================
+
+.vscode/
+.idea/
+>>>>>>> 8af53fc424b2cf8b5809034e9f095355bcdc6b94
 .spyderproject
 .spyproject
 
@@ -186,4 +253,42 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 
+<<<<<<< HEAD
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,python
+=======
+# =========================================================
+
+# 🐧 Linux / 기타
+
+# =========================================================
+
+*~
+*.swp
+*.swo
+
+# =========================================================
+
+# 📜 로그 파일
+
+# =========================================================
+
+*.log
+
+# =========================================================
+
+# 🧩 기타
+
+# =========================================================
+
+.pypirc
+*.pkl, *.pickle
+*.db, *.sqlite3
+# .ipynb
+.python-version
+poetry.lock
+package-lock.json
+pip-wheel-metadata/
+pdf, docx, pptx
+.todo
+secrets/, keys/, credentials/
+>>>>>>> 8af53fc424b2cf8b5809034e9f095355bcdc6b94
