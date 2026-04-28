@@ -205,7 +205,7 @@ $RECYCLE.BIN/
 .pypirc
 *.pkl, *.pickle
 *.db, *.sqlite3
-.ipynb
+# .ipynb
 .python-version
 poetry.lock
 package-lock.json
