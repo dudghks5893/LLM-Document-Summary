@@ -287,3 +287,8 @@ pdf, docx, pptx
 .todo
 secrets/, keys/, credentials/
 >>>>>>> 8af53fc424b2cf8b5809034e9f095355bcdc6b94
+
+*.csv
+*.yaml
+*.yml
+*.json
