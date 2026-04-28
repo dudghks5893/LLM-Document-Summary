@@ -1,12 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,python
 
-### Custom Data & Model Weights (Added) ###
-# Data files
-*.csv
-*.yaml
-*.yml
-*.json
+
 # 특정 설정 파일은 Git에 올려야 한다면 아래 주석을 해제하세요.
 # !config.yaml
 
